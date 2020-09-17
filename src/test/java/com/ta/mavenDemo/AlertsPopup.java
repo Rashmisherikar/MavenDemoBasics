@@ -30,7 +30,7 @@ public class AlertsPopup {
 		String alertText = alert.getText();
 		System.out.println(alertText);
 	
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		alert.accept();
 
 	}
